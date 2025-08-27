@@ -64,15 +64,15 @@ function poissonProbability(lambda, k, type = 'exact') {
 const lambda = 3;
 
 // a) Probabilidad de EXACTAMENTE 5 accidentes
-console.log(`La probabilidad de exactamente 5 accidentes es: ${poissonProbability(lambda, 5, 'exact')}`);
+//console.log(`La probabilidad de exactamente 5 accidentes es: ${poissonProbability(lambda, 5, 'exact')}`);
 
 
 // b) Probabilidad de MENOS DE 3 accidentes
-console.log(`La probabilidad de menos de 3 accidentes es: ${poissonProbability(lambda, 3, 'lessThan')}`);
+//console.log(`La probabilidad de menos de 3 accidentes es: ${poissonProbability(lambda, 3, 'lessThan')}`);
 
 
 // c) Probabilidad de AL MENOS 2 accidentes
-console.log(`La probabilidad de al menos 2 accidentes es: ${poissonProbability(lambda, 2, 'atLeast')}`);
+//console.log(`La probabilidad de al menos 2 accidentes es: ${poissonProbability(lambda, 2, 'atLeast')}`);
 
 
 

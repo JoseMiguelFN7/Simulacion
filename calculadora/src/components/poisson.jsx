@@ -132,9 +132,9 @@ export default function Poisson() {
           >
             <option value="exact">Exactamente (P(X = k))</option>
             <option value="atMost">Como máximo (P(X ≤ k))</option>
-            <option value="lessThan">Menos de (P(X - k))</option>
+            <option value="lessThan">Menos de (P(X {"<"} k))</option>
             <option value="atLeast">Al menos (P(X ≥ k))</option>
-            <option value="moreThan">Más de (P(X + k))</option>
+            <option value="moreThan">Más de (P(X {">"} k))</option>
           </select>
         </div>
 

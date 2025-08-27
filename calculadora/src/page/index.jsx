@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 function index() {
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center min-h-screen ">
       {/* Título */}
-      <h1 className="text-4xl font-bold mb-6">Calculadora</h1>
+      
 
       {/* Contenedor principal */}
       <div className="bg-white shadow-lg  rounded-2xl p-6 w-[300px]">
