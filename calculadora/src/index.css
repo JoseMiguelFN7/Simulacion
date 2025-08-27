@@ -4,5 +4,5 @@
 
 /* Fondo global */
 body {
-  @apply bg-gray-100 bg-gradient-to-bl from-[#151985] to-[#000000];
+  @apply bg-gray-100 ;
 }

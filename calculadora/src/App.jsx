@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/calculadora" element={<Calculadora />} />
+        <Route path="/calculadora/:operacion" element={<Calculadora />} />
       </Routes>
     </BrowserRouter>
   )
