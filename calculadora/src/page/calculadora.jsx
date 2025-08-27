@@ -10,6 +10,7 @@ function Calculadora() {
   const { operacion } = useParams();
 
   return (
+   
     <div className="flex flex-col items-center justify-start min-h-screen mt-10">
       {operacion === "poisson" && <Poisson />}
       {operacion === "exponencial" && <Exponencial />}
@@ -25,6 +26,7 @@ function Calculadora() {
         Volver al menú
       </Link>
     </div>
+
 
   );
 }
