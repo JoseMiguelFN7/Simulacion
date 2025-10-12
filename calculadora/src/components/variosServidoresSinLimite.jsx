@@ -103,7 +103,7 @@ export default function VariosServidoresSinLimite() {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-3xl">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">
-        Línea de Espera: Múltiples Servidores, Cola Infinita (M/M/c) 🧑‍💼🧑‍💼...
+        Línea de Espera: Múltiples Servidores, Cola Infinita {"(M/M/C):(DG/INF/INF)"} 🧑‍💼🧑‍💼...
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-6 mb-8">

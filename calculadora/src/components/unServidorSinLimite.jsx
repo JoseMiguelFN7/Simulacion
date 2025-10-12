@@ -96,7 +96,7 @@ export default function UnServidorSinLimite() {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-2xl">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">
-        Línea de Espera: Un Servidor, Cola Infinita (M/M/1) 🚶‍♂️...
+        Línea de Espera: Un Servidor, Cola Infinita {"(M/M/1):(DG/INF/INF)"} 🚶‍♂️...
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-6 mb-8">

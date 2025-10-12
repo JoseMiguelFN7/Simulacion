@@ -91,7 +91,7 @@ export default function UnServidorConLimite() {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-3xl">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">
-        Línea de Espera: Un Servidor, Cola Finita (M/M/1/N) 🚶‍♂️...🚶‍♂️|
+        Línea de Espera: Un Servidor, Cola Finita {"(M/M/1):(DG/N/INF)"} 🚶‍♂️...🚶‍♂️|
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-6 mb-8">

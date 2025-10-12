@@ -111,7 +111,7 @@ export default function VariosServidoresConLimite() {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-4xl">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">
-        Línea de Espera: Múltiples Servidores, Cola Finita (M/M/c/N) 🧑‍💼...🚶‍♂️|
+        Línea de Espera: Múltiples Servidores, Cola Finita {"(M/M/C):(DG/N/INF)"} 🧑‍💼...🚶‍♂️|
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-6 mb-8">
